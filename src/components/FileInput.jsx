@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Input from '../components/Input';
-import "../components/Input.css"
+import Input from './Input';
+
 
 function FileInput({accept,id,fileHandleFnc,text}) {
     const[fileSelected, setFileSelected] = useState("");

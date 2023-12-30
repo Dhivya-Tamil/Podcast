@@ -25,7 +25,6 @@ body{
   align-items: center;
   min-height: 50vh;
   padding: 25px;
-  border: 2px solid var(--purple-grey);
   width: 37vw;
   border-radius: 34px;
   margin-left: 70px;
@@ -42,5 +41,9 @@ body{
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+.profile{
+  padding-left: 120px;
+  padding-top: 50px;
 }
 

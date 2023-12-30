@@ -25,15 +25,12 @@ function Profile() {
   return (
     <div>
         <Header />
-        <div className='auth-container'>
-        <img src={podcastImg} alt='image'/>
-        <div className='input-wrapper'>
-          <h1>Name: {user.name}</h1>
-          <h1>Email: {user.email}</h1>
+        <div className='profile'>
+          <h2>Name: {user.name}</h2>
+          <h2>Email: {user.email}</h2>
           <Button text={"Logout"} onClick={handleLogout} />
         </div>
         </div>
-    </div>
   )
 }
 

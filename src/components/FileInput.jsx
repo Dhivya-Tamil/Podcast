@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-// import "../components/Input.css"
+import Input from '../components/Input';
+import "../components/Input.css"
 
 function FileInput({accept,id,fileHandleFnc,text}) {
     const[fileSelected, setFileSelected] = useState("");
@@ -13,7 +14,7 @@ function FileInput({accept,id,fileHandleFnc,text}) {
     <div className='custom-input'>
         <label htmlFor={id}>
         {fileSelected ? `File ${fileSelected} selected` : text}</label>
-        <input className='file-input'
+        <Input className='file-input'
             type='file' 
             accept={accept} 
             id={id} 

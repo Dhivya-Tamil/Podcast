@@ -1,0 +1,16 @@
+.auth-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 40px;
+   
+  }
+  .auth-container img{
+    width: 40vw;
+    border-radius: 43%;
+  }
+.podcast-title-heading{
+  margin-left: 100px;
+  font-size: 27px;
+}

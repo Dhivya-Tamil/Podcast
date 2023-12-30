@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,300&family=Poppins:wght@300&display=swap');
+:root{
+  --theme:#20062e;
+  --blue:#18b2de;
+  --white:#fff;
+  --grey:#d7d7d7;
+  --purple-grey:#8f8297;
+} 
+
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smooting:grayscale;
+  background-color: var(--theme);
+  color: var(--white);
+ }
+ input{
+  font-family: 'Inter', sans-serif;
+ }
+ .input-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  border: 2px solid var(--purple-grey);
+  width: 37vw;
+  border-radius: 34px;
+}
+.input-wrapper h1,h3{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+.podcasts-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+

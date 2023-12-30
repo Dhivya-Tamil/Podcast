@@ -24,9 +24,11 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  padding: 25px;
   border: 2px solid var(--purple-grey);
   width: 37vw;
   border-radius: 34px;
+  margin-left: 70px;
 }
 .input-wrapper h1,h3{
   font-size: 1.5rem;
@@ -41,5 +43,4 @@ body{
   gap: 1rem;
   flex-wrap: wrap;
 }
-
 

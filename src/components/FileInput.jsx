@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Input from './Input';
+import "../components/inputStyle.css";
 
 
 function FileInput({accept,id,fileHandleFnc,text}) {
@@ -14,7 +14,7 @@ function FileInput({accept,id,fileHandleFnc,text}) {
     <div className='custom-input'>
         <label htmlFor={id}>
         {fileSelected ? `File ${fileSelected} selected` : text}</label>
-        <Input className='file-input'
+        <input className='file-input'
             type='file' 
             accept={accept} 
             id={id} 

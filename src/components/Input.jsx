@@ -1,5 +1,5 @@
 import React from 'react'
-import "./input.css"
+import "../components/inputStyle.css"
 function Input({type,state,setState,placeholder,required}) {
   return (
     <div>

@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 50vh;
+    min-height: 40vh;
     margin-top: 40px;
-   
+    padding: 70px;
   }
   .auth-container img{
     width: 40vw;
+    margin-left: 100px;
     border-radius: 43%;
   }
 .podcast-title-heading{
